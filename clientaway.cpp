@@ -149,7 +149,7 @@ public:
 						}
 					}
 
-					m_pNetwork->ClearQueryBuffer();
+					//m_pNetwork->ClearQueryBuffer();
 
 					if (GetAutoAway() && m_pNetwork->IsIRCAway()) {
 						PutIRC("AWAY");
